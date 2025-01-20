@@ -12,13 +12,12 @@ For example, the map above shows a portion of the New York region, and the bound
 
 The diagram illustrates the workflow for using the URBANO plugin in Grasshopper to extract specific features, such as buildings, amenities, and streets, from OpenStreetMap (OSM) data. The process begins with **Pulling OSM data** (Step 1), where the user selects a region of interest using the bounding box coordinates (top, bottom, left, and right) from the OSM website. These coordinates define the exact area to be processed. In **Step 2**, the URBANO plugin retrieves specific features, including buildings, amenities, and streets, based on the OSM data for the selected region. Finally, in **Step 3**, the extracted features are "baked" into Grasshopper and Rhinoceros for further use in design and analysis. This seamless process integrates real-world geospatial data into urban planning and simulation tasks.
 
-
 ![Urbano_workflow](https://github.com/user-attachments/assets/41bf4e10-6438-4b4c-b5d8-8e8c009f427a)
+---
 
+# Schematic Representation of 3D Buildings and Footprints for BIM Creation:
 The image shows a schematic representation of the retrieved buildings from the selected region, based on the OSM data. Each building is represented in 3D, and the schematic also includes the footprints of the buildings. These footprints can be further utilized as a foundation for creating detailed Building Information Models (BIM) of the specific region. By leveraging these footprints, you can enhance the urban planning and architectural design process, enabling accurate modeling and analysis of the built environment.
 
-
-# Showing how the BIM of the buildings is baked and how it look like
 
 ![new_york_buildings](https://github.com/user-attachments/assets/37b2ab2b-ea3f-4551-ab4e-eb55a41d0d2e)
 
