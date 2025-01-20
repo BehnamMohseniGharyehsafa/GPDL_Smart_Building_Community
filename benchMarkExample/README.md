@@ -6,6 +6,8 @@ The project is titled **"Buffalo New Development"** and represents an urban deve
 ---
 
 ### Building Details
+The **Buffalo New Development** project includes a total of **13 buildings**, each with detailed attributes regarding its use, structure, and geometry.
+
 The first building in the project is **Mixed_use 1**, which is a mixed-use structure built in 2013. It has four stories with a total floor area of 69,664 m² and a footprint area of 17,416 m². The maximum roof height of this building is 14 meters, and it is represented in the GeoJSON file as a polygon geometry.
 
 The second building, **Restaurant 1**, is also classified as mixed-use and was constructed in 2013. It has a single story with a floor area of 2,067 m², which matches its footprint area. The maximum roof height of this building is 3.5 meters, making it a relatively small structure in the development.
@@ -14,18 +16,27 @@ The second building, **Restaurant 1**, is also classified as mixed-use and was c
 
 The fourth building, **Residential 2**, is also a three-story residential building built in 2013. It has a total floor area of 2,929 m² and a footprint area of 976 m². Like Residential 1, it has a maximum roof height of 10.5 meters and is represented as a polygon geometry.
 
-**Office 1** is a six-story mixed-use building built in 2013. It has a substantial floor area of 30,167 m² and a footprint area of 5,028 m². The maximum roof height of this office building is 21 meters, making it one of the taller structures in the project.
+The fifth building, **Residential 3**, is another three-story residential structure built in 2013. It has a total floor area of 3,011 m² and a footprint area of 1,004 m². Its maximum roof height is 10.5 meters, similar to other residential buildings.
 
-The sixth building, **Hospital 1**, is a 10-story mixed-use building constructed in 2013. It has a floor area of 37,343 m² and a footprint area of 3,734 m². With a maximum roof height of 35 meters, it is the tallest building in the development, suitable for complex urban energy simulations.
+**Residential 4** is the sixth building in the project, constructed in 2013. It is a single-story residential structure with a floor area of 815 m² and a footprint area of 815 m². The maximum roof height of this building is 3.5 meters, making it one of the smallest in the project.
 
-**Mall 1** is a three-story mixed-use structure built in 2013, with a total floor area of 34,679 m² and a footprint area of 11,560 m². The maximum roof height is 10.5 meters, and its size and complexity make it a key feature of the development.
+The seventh building, **Residential 5**, is also a single-story residential structure built in 2013. It has a floor area of 990 m², which matches its footprint area, and a maximum roof height of 3.5 meters.
 
-Finally, **Residential 6** is a 10-story residential building constructed in 2013. It has a total floor area of 29,284 m² and a footprint area of 2,928 m². With a maximum roof height of 35 meters, it is another tall structure within the development and contributes significantly to the residential capacity of the project.
+**Office 1**, the eighth building, is a six-story mixed-use structure constructed in 2013. It has a substantial floor area of 30,167 m² and a footprint area of 5,028 m². The maximum roof height of this office building is 21 meters, making it one of the taller structures in the project.
+
+The ninth building, **Hospital 1**, is a 10-story mixed-use building constructed in 2013. It has a floor area of 37,343 m² and a footprint area of 3,734 m². With a maximum roof height of 35 meters, it is the tallest building in the development, suitable for complex urban energy simulations.
+
+**Hospital 2** is the tenth building, a three-story mixed-use structure built in 2013. It has a floor area of 26,579 m² and a footprint area of 8,860 m². The maximum roof height is 10.5 meters, contributing to its role in urban energy analysis.
+
+The eleventh building, **Mall 1**, is a three-story mixed-use structure built in 2013. It has a total floor area of 34,679 m² and a footprint area of 11,560 m². The maximum roof height is 10.5 meters, and its size and complexity make it a key feature of the development.
+
+The twelfth building, **Mixed_use 2**, is an eight-story structure built in 2013. It has a large floor area of 118,408 m² and a footprint area of 14,801 m². Its maximum roof height is 28 meters, making it a significant component of the urban development.
+
+Finally, **Residential 6** is the thirteenth building, a 10-story residential structure constructed in 2013. It has a total floor area of 29,284 m² and a footprint area of 2,928 m². With a maximum roof height of 35 meters, it is one of the taller structures in the development and contributes significantly to the residential capacity of the project.
 
 ---
 
 ### Building Geometry
-Each building in the project is represented as a **Polygon** geometry within the GeoJSON file. The polygons define the building footprints using latitude and longitude coordinates, which allow accurate spatial modeling and visualization. These footprints align with the program types described, including mixed-use, residential, office, and mall structures. The attached image provides a visual representation of these geometries, illustrating the distribution of different program types across the site. This level of detail supports comprehensive urban and energy analysis, making the Buffalo New Development project an excellent case study for simulation and optimization.
-
+Each building in the project is represented as a **Polygon** geometry within the GeoJSON file. The polygons define the building footprints using latitude and longitude coordinates, which allow accurate spatial modeling and visualization. These footprints align with the program types described, including mixed-use, residential, office, and mall structures. The attached image provides a visual representation of these geometries, illustrating the distribution of different program types across the site. This level of detail supports comprehensive urban and energy analysis, making the Buffalo New Development project an ideal case study for simulation and optimization.
 
 <img width="503" alt="benchmark_1" src="https://github.com/user-attachments/assets/291050d1-2c33-4b73-8930-5b445ffc5500" />
