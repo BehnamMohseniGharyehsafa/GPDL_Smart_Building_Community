@@ -1,4 +1,4 @@
-# GPDL_Smart_Building_Community
+# Context
 
 ![OpenStreetMap_NewYork](https://github.com/user-attachments/assets/ead26bab-0847-404d-88f8-c6cf8c20450f)
 
