@@ -684,3 +684,30 @@ Each building in the project is represented as a **Polygon** geometry within the
 The image below represents the program types of the buildings included in the **Buffalo New Development** project. Each building is color-coded to reflect its designated program type, allowing for quick visual identification of the functional classification of the structures. The program types include **StripMall Building** (red), **Outpatient Building** (orange), **Mixed Use Building Program** (yellow), **MidriseApartment Building** (light blue), **MediumOffice Building** (blue), and **FullServiceRestaurant Building** (dark blue). These program types correspond to the specific purposes of the buildings, such as retail, healthcare, residential, office spaces, and dining. The distribution of these programs highlights the mixed-use nature of the development, promoting a balance of residential, commercial, and service-oriented functions to support the community's needs and energy analysis.
 
 <img width="503" alt="benchmark_1" src="https://github.com/user-attachments/assets/291050d1-2c33-4b73-8930-5b445ffc5500" />
+
+---
+# Results
+
+### Energy Flow Simulation Results (EUI in kWh/m²)
+
+The table below summarizes the results of the energy flow simulation, showing the Energy Use Intensity (EUI) for various end uses in the building. The values represent the energy consumed per square meter of gross floor area for each category.
+
+| End Use               | EUI (kWh/m²) |
+|-----------------------|--------------|
+| Heating              | 65.162       |
+| Cooling              | 14.075       |
+| Interior Lighting    | 33.634       |
+| Electric Equipment   | 38.411       |
+| VAV System Fans      | 3.565        |
+| Pumps                | 3.924        |
+| Heat Rejection       | 0.680        |
+| Gas Equipment        | 3.962        |
+| Water Systems        | 6.797        |
+| Fans                 | 1.451        |
+
+### Description of Results
+The simulation results indicate that **heating** has the highest energy use intensity, consuming 65.162 kWh/m². This suggests significant energy demands for maintaining thermal comfort during colder months. **Electric equipment** (38.411 kWh/m²) and **interior lighting** (33.634 kWh/m²) are also major contributors to overall energy consumption, likely due to building usage patterns and operational requirements.
+
+Cooling systems, represented by **cooling** (14.075 kWh/m²) and **water systems** (6.797 kWh/m²), contribute a moderate amount to the energy usage. Ancillary systems, such as **VAV system fans** (3.565 kWh/m²), **pumps** (3.924 kWh/m²), and **gas equipment** (3.962 kWh/m²), show relatively low energy demands. **Heat rejection** and **fans** have the lowest EUI values, at 0.680 kWh/m² and 1.451 kWh/m² respectively, indicating minor contributions to the overall energy profile.
+
+These results provide a detailed breakdown of energy consumption patterns, enabling targeted interventions for energy efficiency improvements.
