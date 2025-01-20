@@ -48,12 +48,10 @@ The image highlights three methods for creating urban-scale building community m
 - **Simplification:** Reduces computational complexity by allowing flexibility in the level of detail, from highly simplified solids to detailed room-level models.
 - **Integration:** Seamlessly connects with other Ladybug Tools for environmental and energy analysis.
 - **Adaptability:** Works with data from multiple sources, such as building footprints, 3D solids, or custom-designed room layouts, enabling diverse use cases for urban energy and environmental performance analysis.
-
-
 ![DF_Details](https://github.com/user-attachments/assets/b9ca456d-eb63-4e41-91af-68cba50e563a)
+---
 
-# Explaining how to create a model using DF and explaining how the footprint works
-
+# Comprehensive Workflow for Community-Scale Energy Flow Studies Using Dragonfly and URBANopt:
 The flow diagram outlines a comprehensive workflow for conducting community-scale energy flow studies using Dragonfly, starting with building footprints obtained from OpenStreetMap (OSM) via the URBANO plugin. The process begins by creating building properties, programs, and construction sets to define the characteristics of the buildings. These inputs are then combined to create building models through the footprint methodology. Afterward, modifications are made to the building models by assigning fenestration (windows and openings) and HVAC systems, ensuring that the buildings are accurately configured for energy analysis.
 
 The refined building models are then used to create a Dragonfly model, which serves as the basis for the community-scale energy simulation. Key inputs such as weather data (retrieved through an EPW file), geographic information (formatted in geoJSON), and simulation configurations are integrated into the Dragonfly model. This model is subsequently run through the **URBANopt engine**, a specialized tool for urban energy modeling. The engine processes the data to simulate energy flows and interactions within the community, providing critical insights into energy performance.
