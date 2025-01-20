@@ -28,11 +28,10 @@ The image compares [**Dragonfly**](https://github.com/ladybug-tools/dragonfly-co
 ### Advantage of Dragonfly for Building Community Simulations:
 Dragonfly excels in simulating energy flows for building communities due to its focus on simplified representations, which significantly reduces computational complexity and time. It is well-suited for large-scale analyses involving multiple buildings, where detailed modeling (as in Honeybee) is unnecessary or impractical. Dragonfly allows urban planners and energy analysts to assess energy performance, identify trends, and evaluate the impact of community-level design decisions quickly and effectively.
 
-
 ![difference_between_HB_and_DF](https://github.com/user-attachments/assets/c0deeb42-7c38-4dd7-a614-ce8662a5b914)
+---
 
-# Explaining the difference between DF abd HB
-
+# Three Methods for Urban-Scale Modeling and Features of Dragonfly in Energy Simulation:
 The image highlights three methods for creating urban-scale building community models using Dragonfly, emphasizing its flexibility and streamlined approach to urban energy simulation.
 
 1. **From Rooms-to-Stories-to-Buildings:**
