@@ -8,6 +8,7 @@ This folder links to [URBANO Rhino Plug-in](https://github.com/EnvironmentalSyst
 
 ![OpenStreetMap_NewYork](https://github.com/user-attachments/assets/c6998adc-ea9e-477f-93f1-de9d6b46d462)
 
-![Baking_Geometries](https://github.com/user-attachments/assets/7c835968-9fc2-4f92-b5ee-d293f439845d)
+<img width="887" alt="Baking_Geometries" src="https://github.com/user-attachments/assets/fb803b12-e946-45a5-91ff-e77a374a95be" />
+
 
 ![NewYork_lover](https://github.com/user-attachments/assets/dfe1dedf-a43d-4b4e-9a78-5897dd2008a3)
