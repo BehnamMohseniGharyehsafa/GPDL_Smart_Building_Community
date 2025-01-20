@@ -1,4 +1,4 @@
-# Context
+
 
 # Integrating OpenStreetMap Data:
 To obtain OpenStreetMap (OSM) data for a specific region, go to the [OpenStreetMap website](https://www.openstreetmap.org/). Navigate to the map area of interest and select a bounding box by adjusting the rectangle on the map. The bounding box is defined by four coordinates: top (latitude of the northern edge), bottom (latitude of the southern edge), left (longitude of the western edge), and right (longitude of the eastern edge). These four numbers specify the region you want to export. Once defined, click the "Export" button to download the data in an OSM-compatible format, such as `.osm` or `.pbf`. This exported file can then be fed into an OSM engine (e.g., Osmosis or a custom parser) to retrieve specific features, such as roads, buildings, or amenities, for further analysis or application integration.
