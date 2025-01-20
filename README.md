@@ -22,6 +22,12 @@ The image shows a schematic representation of the retrieved buildings from the s
 
 ![new_york_buildings](https://github.com/user-attachments/assets/37b2ab2b-ea3f-4551-ab4e-eb55a41d0d2e)
 
+The image compares **Dragonfly** and **Honeybee** models within the context of building energy simulation. The Dragonfly model (shown in the top-right corner) is a simplified representation of buildings, focusing on larger-scale, low-detail massing and zoning. It is used for urban-scale analysis or evaluating energy flows and loads for multiple buildings within a community. On the other hand, the Honeybee model (bottom-right corner) provides more detailed building representations, including individual zones, surfaces, and construction materials, enabling a higher-resolution energy analysis at the building or room level.
+
+### Advantage of Dragonfly for Building Community Simulations:
+Dragonfly excels in simulating energy flows for building communities due to its focus on simplified representations, which significantly reduces computational complexity and time. It is well-suited for large-scale analyses involving multiple buildings, where detailed modeling (as in Honeybee) is unnecessary or impractical. Dragonfly allows urban planners and energy analysts to assess energy performance, identify trends, and evaluate the impact of community-level design decisions quickly and effectively.
+
+
 ![difference_between_HB_and_DF](https://github.com/user-attachments/assets/c0deeb42-7c38-4dd7-a614-ce8662a5b914)
 
 # Explaining the difference between DF abd HB
