@@ -34,6 +34,12 @@ The twelfth building, **Mixed_use 2**, is an eight-story structure built in 2013
 
 Finally, **Residential 6** is the thirteenth building, a 10-story residential structure constructed in 2013. It has a total floor area of 29,284 m² and a footprint area of 2,928 m². With a maximum roof height of 35 meters, it is one of the taller structures in the development and contributes significantly to the residential capacity of the project.
 
+
+---
+
+### Building Geometry
+Each building in the project is represented as a **Polygon** geometry within the GeoJSON file. The polygons define the building footprints using latitude and longitude coordinates, which allow accurate spatial modeling and visualization. These footprints align with the program types described, including mixed-use, residential, office, and mall structures. The attached image provides a visual representation of these geometries, illustrating the distribution of different program types across the site. This level of detail supports comprehensive urban and energy analysis, making the Buffalo New Development project an ideal case study for simulation and optimization.
+
 ```json
 {
     "mappers": [], 
@@ -672,11 +678,6 @@ Finally, **Residential 6** is the thirteenth building, a 10-story residential st
     }
 }
 ```
-
----
-
-### Building Geometry
-Each building in the project is represented as a **Polygon** geometry within the GeoJSON file. The polygons define the building footprints using latitude and longitude coordinates, which allow accurate spatial modeling and visualization. These footprints align with the program types described, including mixed-use, residential, office, and mall structures. The attached image provides a visual representation of these geometries, illustrating the distribution of different program types across the site. This level of detail supports comprehensive urban and energy analysis, making the Buffalo New Development project an ideal case study for simulation and optimization.
 
 ---
 The image below represents the program types of the buildings included in the **Buffalo New Development** project. Each building is color-coded to reflect its designated program type, allowing for quick visual identification of the functional classification of the structures. The program types include **StripMall Building** (red), **Outpatient Building** (orange), **Mixed Use Building Program** (yellow), **MidriseApartment Building** (light blue), **MediumOffice Building** (blue), and **FullServiceRestaurant Building** (dark blue). These program types correspond to the specific purposes of the buildings, such as retail, healthcare, residential, office spaces, and dining. The distribution of these programs highlights the mixed-use nature of the development, promoting a balance of residential, commercial, and service-oriented functions to support the community's needs and energy analysis.
