@@ -63,6 +63,41 @@ Finally, the energy flow results from the URBANopt engine are passed to a Python
 
 ![FlowChart](https://github.com/user-attachments/assets/29b26486-14a2-4aff-aa21-0d38e0c2c2d9)
 
+# What exactly URBANopt engine needs to run:
+
+```json
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.985, 40.725]
+      },
+      "properties": {
+        "name": "Example Location",
+        "type": "Building"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-73.985, 40.725],
+          [-73.980, 40.720]
+        ]
+      },
+      "properties": {
+        "name": "Example Street",
+        "type": "Road"
+      }
+    }
+  ]
+}
+
+
 # Explaining the project 
 
 ![FIG_1](https://github.com/user-attachments/assets/26240c81-e718-4fa9-ac20-26e7424a39fb)
