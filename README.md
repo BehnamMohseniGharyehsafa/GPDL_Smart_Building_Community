@@ -716,6 +716,13 @@ The `Buffalo_New_Development.geojson` file describes a community-scale developme
 
 # Explaining the project 
 
+The diagram outlines a comprehensive framework for urban-scale energy modeling and optimization for retrofitted buildings. The system is divided into three main components: **data collection**, **data processing**, and **modeling and output generation**.
+
+The **data collection stage** utilizes tools like URBANO, OpenStreetMap, and plugins for Rhinoceros and Grasshopper to gather geographic and environmental data for a municipality (Mullingar City). These data are used to create parametric 3D building models and assess energy flows at a community scale. In the **data processing stage**, various HVAC configurations such as gas boilers, electric heaters, and air-source heat pumps are modeled, alongside building features like insulation and window ratios, to determine their impact on energy use intensity (EUI). Finally, the **modeling stage** integrates a hybrid Gaussian Process-Deep Learning (GPDL) algorithm to predict EUI and support decision-making for retrofitting scenarios. Outputs include urban-scale EUI assessments, influential retrofitting factors, and fast energy modeling tailored for policymakers and urban planners.
+
+This system demonstrates a scalable and efficient approach, combining traditional building energy modeling tools with advanced techniques to optimize energy efficiency in urban areas.
+
+
 ![FIG_1](https://github.com/user-attachments/assets/26240c81-e718-4fa9-ac20-26e7424a39fb)
 
 # Def
