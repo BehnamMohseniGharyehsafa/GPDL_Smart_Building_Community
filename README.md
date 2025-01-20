@@ -733,4 +733,12 @@ The diagram below illustrates a multi-level schematic of different domestic hot 
 
 ![FIG_4](https://github.com/user-attachments/assets/5d8ae7fe-1d49-44b3-b9a4-5df40aa65c23)
 
+
+---
+The bar chart the figure below compares the End Use Intensity (EUI) across three different HVAC systems—**HP and DHW (Heat Pump and Domestic Hot Water)**, **Full Electric**, and **Gas Boiler and DHW**—under the same envelope conditions for cold regions. The EUI is displayed for all four seasons: **Winter**, **Spring**, **Summer**, and **Autumn**.
+
+From the chart, it is evident that **Gas Boiler and DHW** has the highest EUI during **Winter** and **Autumn**, making it the least energy-efficient system during colder seasons. Conversely, **HP and DHW** exhibits the lowest EUI overall, with significantly reduced energy use in **Spring** and **Summer**, highlighting its efficiency in milder weather. The **Full Electric** system shows moderate EUI across all seasons but has a relatively higher EUI compared to **HP and DHW**, especially during **Winter** and **Autumn**.
+
+This comparison highlights the seasonal variations in energy efficiency for different systems and demonstrates that **HP and DHW** is the most efficient solution under the given conditions, particularly in cold regions with varying seasonal demands.
+
 ![FIG_7](https://github.com/user-attachments/assets/d1dc75e0-b90d-4c3a-83af-4178b1ec4968)
