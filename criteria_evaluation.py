@@ -1,11 +1,4 @@
-##################################
-### Import necessary libraries ###
-##################################
-
 import numpy as np
-from sklearn.linear_model import LinearRegression
-from sklearn.gaussian_process import GaussianProcessRegressor
-from sklearn.gaussian_process.kernels import RBF
 from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
 from scipy.stats import shapiro
 import statsmodels.api as sm
@@ -92,32 +85,3 @@ def calculate_full_metrics(y_true, y_pred, std_dev=None, model_name="Model"):
 
     return results
 
-###############################
-### Linear Regression Model ###
-###############################
-
-linear_model = LinearRegression()
-linear_model.fit(X_train, Y_train)
-Y_pred_linear = linear_model.predict(X_train)
-metrics_linear = calculate_full_metrics(Y_train, Y_pred_linear, model_name="Linear Regression")
-
-#########################
-### Spline Regression ###
-#########################
-
-X_feature1 = X_train[:, 0]
-transformed_x = dmatrix("bs(X_feature1, df=4, include_intercept=True)", {"X_feature1": X_feature1}, return_type='dataframe')
-spline_model = sm.OLS(Y_train, transformed_x).fit()
-print(spline_model.summary())
-Y_pred_spline = spline_model.predict(transformed_x)
-spline_metrics = calculate_full_metrics(Y_train, Y_pred_spline, model_name="Spline Regression")
-
-###################################
-### Gaussian Process Regression ###
-###################################
-
-kernel = RBF(length_scale=1.0, length_scale_bounds=(0.1, 10.0))
-gp_model = GaussianProcessRegressor(kernel=kernel, n_restarts_optimizer=20, alpha=1e-5)
-gp_model.fit(X_train, Y_train)
-Y_pred_gp, std_dev_gp = gp_model.predict(X_train, return_std=True)
-gp_metrics = calculate_full_metrics(Y_train, Y_pred_gp, std_dev=std_dev_gp, model_name="Gaussian Process Regression")
