@@ -1,4 +1,4 @@
-# AAA
+# Project Description
 
 ### Project Overview
 The project is titled **"Buffalo New Development"** and represents an urban development in Buffalo, NY. This project includes metadata describing the location and context of the development. It is located at latitude 42.813153 and longitude -78.852466, with an elevation of 200 meters above sea level. The time zone is -5.0 (Eastern Time Zone), and CAD coordinates for the site are [0.0, 0.0]. This metadata provides a foundation for urban energy and sustainability analysis within the framework of the project.
