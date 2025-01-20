@@ -1,7 +1,6 @@
 # Context
 
-# Integrating OpenStreetMap Data
-
+# Integrating OpenStreetMap Data:
 To obtain OpenStreetMap (OSM) data for a specific region, go to the [OpenStreetMap website](https://www.openstreetmap.org/). Navigate to the map area of interest and select a bounding box by adjusting the rectangle on the map. The bounding box is defined by four coordinates: top (latitude of the northern edge), bottom (latitude of the southern edge), left (longitude of the western edge), and right (longitude of the eastern edge). These four numbers specify the region you want to export. Once defined, click the "Export" button to download the data in an OSM-compatible format, such as `.osm` or `.pbf`. This exported file can then be fed into an OSM engine (e.g., Osmosis or a custom parser) to retrieve specific features, such as roads, buildings, or amenities, for further analysis or application integration.
 
 For example, the map above shows a portion of the New York region, and the bounding box is defined by the four numbers: top (40.725000), bottom (40.720000), left (-73.985000), and right (-73.980000). You can use these coordinates directly in the URBANO engine within Grasshopper for Rhinoceros to define the area of interest. By inputting these values, URBANO can retrieve and process OSM features such as buildings, roads, and green spaces for urban analysis and simulation tasks. This workflow allows seamless integration of real-world geospatial data into your design and analysis pipeline.
