@@ -54,6 +54,13 @@ The image highlights three methods for creating urban-scale building community m
 
 # Explaining how to create a model using DF and explaining how the footprint works
 
+The flow diagram outlines a comprehensive workflow for conducting community-scale energy flow studies using Dragonfly, starting with building footprints obtained from OpenStreetMap (OSM) via the URBANO plugin. The process begins by creating building properties, programs, and construction sets to define the characteristics of the buildings. These inputs are then combined to create building models through the footprint methodology. Afterward, modifications are made to the building models by assigning fenestration (windows and openings) and HVAC systems, ensuring that the buildings are accurately configured for energy analysis.
+
+The refined building models are then used to create a Dragonfly model, which serves as the basis for the community-scale energy simulation. Key inputs such as weather data (retrieved through an EPW file), geographic information (formatted in geoJSON), and simulation configurations are integrated into the Dragonfly model. This model is subsequently run through the **URBANopt engine**, a specialized tool for urban energy modeling. The engine processes the data to simulate energy flows and interactions within the community, providing critical insights into energy performance.
+
+Finally, the energy flow results from the URBANopt engine are passed to a Python-based custom program for scenario analysis. This enables advanced analytics, such as comparing the impact of different design or operational scenarios across specific parts of the community. The results can then be visualized or exported for further study, making this workflow ideal for urban planners and researchers seeking to evaluate energy efficiency and sustainability at the community level.
+
+
 ![FlowChart](https://github.com/user-attachments/assets/29b26486-14a2-4aff-aa21-0d38e0c2c2d9)
 
 # Explaining the project 
