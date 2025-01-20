@@ -690,7 +690,7 @@ The image below represents the program types of the buildings included in the **
 
 ### Energy Flow Simulation Results (EUI in kWh/m²)
 
-The table below summarizes the results of the energy flow simulation, showing the Energy Use Intensity (EUI) for various end uses in the building. The values represent the energy consumed per square meter of gross floor area for each category.
+The table below summarizes the results of the energy flow simulation, showing the End Use Intensity (EUI) for various end uses in the building. The values represent the energy consumed per square meter of gross floor area for each category.
 
 | End Use               | EUI (kWh/m²) |
 |-----------------------|--------------|
