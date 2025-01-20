@@ -20,7 +20,9 @@ The image shows a schematic representation of the retrieved buildings from the s
 
 
 ![new_york_buildings](https://github.com/user-attachments/assets/37b2ab2b-ea3f-4551-ab4e-eb55a41d0d2e)
+---
 
+# Comparison of Dragonfly and Honeybee Models for Building Energy Simulation:
 The image compares [**Dragonfly**](https://github.com/ladybug-tools/dragonfly-core) and [**Honeybee**](https://github.com/ladybug-tools/honeybee-core) models within the context of building energy simulation. The Dragonfly model (shown in the top-right corner) is a simplified representation of buildings, focusing on larger-scale, low-detail massing and zoning. It is used for urban-scale analysis or evaluating energy flows and loads for multiple buildings within a community. On the other hand, the Honeybee model (bottom-right corner) provides more detailed building representations, including individual zones, surfaces, and construction materials, enabling a higher-resolution energy analysis at the building or room level.
 
 ### Advantage of Dragonfly for Building Community Simulations:
