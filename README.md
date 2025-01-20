@@ -7,7 +7,7 @@ To obtain OpenStreetMap (OSM) data for a specific region, go to the [OpenStreetM
 For example, the map above shows a portion of the New York region, and the bounding box is defined by the four numbers: top (40.725000), bottom (40.720000), left (-73.985000), and right (-73.980000). You can use these coordinates directly in the URBANO engine within Grasshopper for Rhinoceros to define the area of interest. By inputting these values, URBANO can retrieve and process OSM features such as buildings, roads, and green spaces for urban analysis and simulation tasks. This workflow allows seamless integration of real-world geospatial data into your design and analysis pipeline.
 
 ![OpenStreetMap_NewYork](https://github.com/user-attachments/assets/ead26bab-0847-404d-88f8-c6cf8c20450f)
----
+--
 
 # Explaining how to apply OSM data in the URBANO to have the features, including the buildings, amenities, and streets
 
