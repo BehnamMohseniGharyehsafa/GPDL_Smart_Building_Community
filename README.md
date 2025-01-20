@@ -712,7 +712,7 @@ The `Buffalo_New_Development.geojson` file describes a community-scale developme
 }
 ```
 
-# Explaining the project 
+# Comprehensive Framework for Urban-Scale Energy Modeling and Retrofitting Optimization - Mullingar Case Study
 
 The diagram outlines a comprehensive framework for urban-scale energy modeling and optimization for retrofitted buildings. The system is divided into three main components: **data collection**, **data processing**, and **modeling and output generation**.
 
