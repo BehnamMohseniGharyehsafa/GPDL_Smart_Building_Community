@@ -680,6 +680,7 @@ Each building in the project is represented as a **Polygon** geometry within the
 ```
 
 ---
+# Program type
 The image below represents the program types of the buildings included in the **Buffalo New Development** project. Each building is color-coded to reflect its designated program type, allowing for quick visual identification of the functional classification of the structures. The program types include **StripMall Building** (red), **Outpatient Building** (orange), **Mixed Use Building Program** (yellow), **MidriseApartment Building** (light blue), **MediumOffice Building** (blue), and **FullServiceRestaurant Building** (dark blue). These program types correspond to the specific purposes of the buildings, such as retail, healthcare, residential, office spaces, and dining. The distribution of these programs highlights the mixed-use nature of the development, promoting a balance of residential, commercial, and service-oriented functions to support the community's needs and energy analysis.
 
 <img width="503" alt="benchmark_1" src="https://github.com/user-attachments/assets/291050d1-2c33-4b73-8930-5b445ffc5500" />
