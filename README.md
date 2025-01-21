@@ -735,7 +735,7 @@ The diagram below illustrates a multi-level schematic of different domestic hot 
 
 ![FIG_4](https://github.com/user-attachments/assets/5d8ae7fe-1d49-44b3-b9a4-5df40aa65c23)
 ---
-# Seasonal Comparison:
+# Seasonal Comparison - Mullingar Case Study:
 
 The bar chart the figure below compares the End Use Intensity (EUI) across three different HVAC systems—**HP and DHW (Heat Pump and Domestic Hot Water)**, **Full Electric**, and **Gas Boiler and DHW**—under the same envelope conditions for cold regions. The EUI is displayed for all four seasons: **Winter**, **Spring**, **Summer**, and **Autumn**.
 
