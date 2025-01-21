@@ -1,4 +1,5 @@
 # Description:
+<span style="color:blue">some *blue* text</span>.
 
 This repository provides a framework for simulating energy flows within building communities. It includes tools and methodologies for integrating OpenStreetMap data to extract building geometries and features, which are then utilized in energy simulation models. The repository also offers scripts for evaluating various criteria related to energy performance, facilitating comprehensive analysis and optimization of community-scale energy systems. The steps to have community scale energy analysis read as follows:
 
